@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import { sliderOne, sliderTwo, sliderThree, sliderFour } from "@/assets";
 import Image from "next/image";
+import { Clock, MailPlus, Map, Smartphone } from "lucide-react";
 
 const Banner = () => {
   const [dotActive, setDotActive] = useState(0);
@@ -134,6 +135,36 @@ const Banner = () => {
           </div>
         </div>
       </Slider>
+      <div className="h-20 bg-white absolute left-1/2 -bottom-10 transform -translate-x-1/2 hidden lg:inline-flex items-center gap-x-12 p-10">
+        <div className="flex items-center gap-5 w-60">
+          <Clock className="text-designColor w-8 h-8" />
+          <div>
+            <p>Saturday - Thursday</p>
+            <p className="font-semibold">7:00 - 20:00</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-5 w-60">
+          <Smartphone className="text-designColor w-8 h-8" />
+          <div>
+            <p>+ 091 12345 12345</p>
+            <p className="font-semibold">Order by Phone</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-5 w-60">
+          <Map className="text-designColor w-8 h-8" />
+          <div>
+            <p>Nagpur, Maharashtra</p>
+            <p className="font-semibold">Address</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-5 w-60">
+          <MailPlus className="text-designColor w-8 h-8" />
+          <div>
+            <p>Get the invoice</p>
+            <p className="font-semibold">Email us</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
