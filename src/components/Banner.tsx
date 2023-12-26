@@ -22,7 +22,7 @@ const Banner = () => {
       <div
         style={{
           position: "absolute",
-          top: "98%",
+          top: "70%",
           left: "67%",
           transform: "translate(-50%, 0)",
         }}
@@ -79,7 +79,7 @@ const Banner = () => {
               priority
             />
           </div>
-          <div className="lg:absolute lg:top-1/2 lg:left-2/3 transform lg:-translate-x-1/2 lg:translate-y-1/2 flex flex-col items-center gap-5">
+          <div className="lg:absolute lg:top-1/2 lg:left-2/3 transform lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center gap-5">
             <p className="text-xl uppercase">get the best products for you</p>
             <p className="text-xl text-center text-zinc-600">
               Browse the latest phones in the market and get the one you dream
@@ -100,7 +100,7 @@ const Banner = () => {
               priority
             />
           </div>
-          <div className="lg:absolute lg:top-1/2 lg:left-2/3 transform lg:-translate-x-1/2 lg:translate-y-1/2 flex flex-col items-center gap-5">
+          <div className="lg:absolute lg:top-1/2 lg:left-2/3 transform lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center gap-5">
             <p className="text-xl uppercase">get the best products for you</p>
             <p className="text-xl text-center text-zinc-600">
               Browse the latest phones in the market and get the one you dream
@@ -121,7 +121,7 @@ const Banner = () => {
               priority
             />
           </div>
-          <div className="lg:absolute lg:top-1/2 lg:left-2/3 transform lg:-translate-x-1/2 lg:translate-y-1/2 flex flex-col items-center gap-5">
+          <div className="lg:absolute lg:top-1/2 lg:left-2/3 transform lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center gap-5">
             <p className="text-xl uppercase">get the best products for you</p>
             <p className="text-xl text-center text-zinc-600">
               Browse the latest phones in the market and get the one you dream
