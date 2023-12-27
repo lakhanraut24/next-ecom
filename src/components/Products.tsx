@@ -6,7 +6,7 @@ import { getProducts } from "@/helpers";
 
 const Products = async () => {
   const products = await getProducts();
-  console.log(products);
+
   return (
     <div className="m-10 mb-60">
       <Container>

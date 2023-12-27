@@ -15,9 +15,9 @@ const Product = ({ products }: Item) => {
       {products.map((item) => (
         <div
           className="relative bg-white group border-[1px] border-zinc-200 hover:border-zinc-500 duration-300 hover:shadow-xl overflow-hidden"
-          key={item?._id}
+          key={item._id}
         >
-          <Link href={"/"}>
+          <Link href={{ pathname: `/${item?._id}`, query: { _id: item?._id } }}>
             <Image
               src={item?.image}
               alt="Product image"
