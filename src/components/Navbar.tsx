@@ -45,7 +45,7 @@ const Navbar = () => {
             </span>
           </Link>{" "}
           <Link
-            href={"/wishlist"}
+            href={"/cart"}
             className="hover:text-black cursor-pointer duration-200 relative group"
           >
             <ShoppingBagIcon className="w-7 h-7" />
