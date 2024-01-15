@@ -3,7 +3,7 @@ import Product from "@/components/Product";
 import { getPhones } from "@/helpers";
 import React from "react";
 
-const page = async () => {
+const Page = async () => {
   const products = await getPhones();
   return (
     <Container>
@@ -19,4 +19,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default Page;
